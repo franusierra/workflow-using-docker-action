@@ -1,0 +1,8 @@
+on:
+    push:
+        branches:
+            - master
+jobs:
+    tryActionHolaGente:
+        steps:
+            - uses: franusierra/action-sample-sngular@v0.1.7
