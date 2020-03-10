@@ -4,5 +4,6 @@ on:
             - master
 jobs:
     tryActionHolaGente:
+        runs-on: ubuntu-latest
         steps:
             - uses: franusierra/action-sample-sngular@v0.1.7
